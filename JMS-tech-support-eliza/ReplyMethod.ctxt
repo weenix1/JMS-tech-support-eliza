@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ReplyMethod
+comment0.text=\r\n\ Functional\ interface\ ReplyMethod.\r\n\r\n\ @author\ Wolfgang\ Renz\r\n\ @version\ May\ 2020\r\n
+comment1.params=paramter
+comment1.target=java.lang.String\ replyTo(java.lang.Object)
+numComments=2

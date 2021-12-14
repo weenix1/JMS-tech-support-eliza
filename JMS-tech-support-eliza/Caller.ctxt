@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Caller
+comment0.text=\r\n\ Request-Response\ Caller\r\n\ cf.\r\n\ https\://activemq.apache.org/how-should-i-implement-request-response-with-jms\r\n\ \r\n\ @author\ Wolfgang\ Renz\r\n\ @version\ May\ 2020\r\n
+comment1.params=destination
+comment1.target=Caller(java.lang.String)
+comment2.params=
+comment2.target=Caller()
+comment3.params=
+comment3.target=boolean\ connect()
+comment4.params=text
+comment4.target=void\ printResponseToCall(java.lang.String)
+comment5.params=text
+comment5.target=java.lang.String\ responseToCall(java.io.Serializable)
+comment6.params=correlationId
+comment6.target=java.lang.String\ listen(java.lang.String)
+comment7.params=text
+comment7.target=void\ sendMessage(java.lang.String)
+comment8.params=
+comment8.target=void\ eot()
+comment9.params=
+comment9.target=java.lang.String\ createRandomString()
+numComments=10

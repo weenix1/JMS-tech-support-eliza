@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Responder
+comment0.text=\r\n\ Class\ Responder\r\n\ \r\n\ @author\ Wolfgang\ Renz\r\n\ @version\ May\ 2020\r\n\ \r\n
+comment1.params=destination
+comment1.target=Responder(java.lang.String)
+comment2.params=replyToRequest
+comment2.target=Responder(ReplyMethod)
+comment3.params=
+comment3.target=boolean\ connect()
+comment4.params=
+comment4.target=void\ answer()
+numComments=5

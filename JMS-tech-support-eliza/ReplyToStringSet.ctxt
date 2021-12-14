@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ReplyToStringSet
+comment0.text=\r\n\ The\ responder\ class\ represents\ a\ response\ generator\ object.\r\n\ It\ is\ used\ to\ generate\ an\ automatic\ response,\ based\ on\ specified\ input.\r\n\ Input\ is\ presented\ to\ the\ responder\ as\ a\ set\ of\ words,\ and\ based\ on\ those\r\n\ words\ the\ responder\ will\ generate\ a\ String\ that\ represents\ the\ response.\r\n\ <br><br>\r\n\ Internally,\ the\ reponder\ uses\ a\ HashMap\ to\ associate\ words\ with\ response\r\n\ strings\ and\ a\ list\ of\ default\ responses.\ If\ any\ of\ the\ input\ words\ is\ found\r\n\ in\ the\ HashMap,\ the\ corresponding\ response\ is\ returned.\ If\ none\ of\ the\ input\r\n\ words\ is\ recognized,\ one\ of\ the\ default\ responses\ is\ randomly\ chosen.\r\n\ <br><br>\r\n\ ReplyMethod\ requires\ replyTo\ method\ for\ use\ in\ ElizaServer.<br>\r\n\ \r\n\ @author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ \ \ \ 1.0\ (2016.02.29)\r\n
+comment1.params=
+comment1.target=ReplyToStringSet()
+comment1.text=\r\n\ Construct\ a\ ReplyToStringSet\r\n
+comment2.params=request
+comment2.target=java.lang.String\ replyTo(java.lang.Object)
+comment2.text=\r\n\ Server-side\ replyTo\ implementation\r\n\r\n\ @param\ request\ shall\ be\ {@code\ java.util.HashSet<String>}\ \r\n\ @return\ reply\r\n
+comment3.params=words
+comment3.target=java.lang.String\ generateResponse(java.util.HashSet)
+comment4.params=
+comment4.target=void\ fillResponseMap()
+comment4.text=\r\n\ Enter\ all\ the\ known\ keywords\ and\ their\ associated\ responses\r\n\ into\ our\ response\ map.\r\n
+comment5.params=
+comment5.target=void\ fillDefaultResponses()
+comment5.text=\r\n\ Build\ up\ a\ list\ of\ default\ responses\ from\ which\ we\ can\ pick\ one\r\n\ if\ we\ don't\ know\ what\ else\ to\ say.\r\n
+comment6.params=
+comment6.target=java.lang.String\ pickDefaultResponse()
+comment6.text=\r\n\ Randomly\ select\ and\ return\ one\ of\ the\ default\ responses.\r\n\ @return\ \ \ \ \ A\ random\ default\ response\r\n
+numComments=7

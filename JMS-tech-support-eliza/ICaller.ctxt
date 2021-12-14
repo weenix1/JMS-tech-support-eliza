@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ICaller
+comment0.text=\r\n\ ICaller\r\n\r\n\ @author\ Wolfgang\ Renz\r\n\ @version\ May\ 2020\r\n
+comment1.params=
+comment1.target=void\ eot()
+comment1.text=\r\n\ \ eot\ sends\ an\ EndOfTransmission\ and\ quits\ the\ connection\r\n
+comment2.params=object
+comment2.target=java.lang.String\ responseToCall(java.io.Serializable)
+comment2.text=\r\n\ responseToCall\ calls\ with\ the\ object\ argument\ and\ returns\ text.\r\n\ Future\ versions\ could\ return\ a\ general\ object\r\n\r\n\ @param\ objec\ to\ be\ sent\r\n\ @return\ response\ received\r\n
+numComments=3
